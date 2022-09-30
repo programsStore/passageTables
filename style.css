@@ -54,7 +54,7 @@ html, body {
 }
 
 #existing-current, #existing-morning {
-    width: 400px;
+    width: 500px;
 }
 
 .hidden-table {
@@ -78,7 +78,7 @@ html, body {
     width: 33.333%;
     border-right: 1px solid #CECECE;
     border-bottom: 1px solid #CECECE;
-    font-size: 16px;
+    font-size: 15px;
     padding: 12px 0 12px 16px;
 }
 
@@ -100,7 +100,7 @@ html, body {
 }
 
 .divider {
-    width: 60px;
+    width: 30px;
 }
 
 .select-buttons {
