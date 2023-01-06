@@ -746,6 +746,7 @@ async function checkForPass() {
             return checkForPass();
         }
         else {
+            localStorage.removeItem('masterKey')
             return false;
         }
     }
@@ -757,9 +758,11 @@ async function checkForPass() {
         }
         else {
             if(confirm('Введите действительный пароль')) {
+                localStorage.removeItem('masterKey')
                 return checkForPass();
             }
             else {
+                localStorage.removeItem('masterKey')
                 return false;
             }
         }
