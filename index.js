@@ -1,6 +1,3 @@
-{/* CHANGE TAB
-    ADD ROW
-*/}
 
 const url = "https://api.jsonbin.io/v3/b";
 let binId = "";
