@@ -27,7 +27,7 @@
                     <div class="col">$</div>
                     <div class="col">€</div>
                     <div class="col">£</div>
-                    <div class="col">Fr</div>
+                    <div class="col">czk</div>
                     <div class="col">zł</div>
                     <div class="col">грн</div>
                 </div>
@@ -47,7 +47,7 @@
                     <div class="col">$</div>
                     <div class="col">€</div>
                     <div class="col">£</div>
-                    <div class="col">Fr</div>
+                    <div class="col">czk</div>
                     <div class="col">zł</div>
                     <div class="col">грн</div>
                 </div>
@@ -83,7 +83,7 @@
             <button class="selected" id="toggle-dollar" onclick="changeTab('dollar')">Доллары $</button>
             <button id="toggle-euro" onclick="changeTab('euro')">Евро €</button>
             <button id="toggle-funt" onclick="changeTab('funt')">Фунт £</button>
-            <button id="toggle-frank" onclick="changeTab('frank')">Франк Fr</button>
+            <button id="toggle-frank" onclick="changeTab('frank')">Крона czk</button>
             <button id="toggle-zloty" onclick="changeTab('zloty')">Злотый zł</button>
         </div>
         <select id="mobile-select">
@@ -93,8 +93,8 @@
             <option value="sale-euro">Евро Продажа</option>
             <option value="buy-funt">Фунт Покупка</option>
             <option value="sale-funt">Фунт Продажа</option>
-            <option value="buy-frank">Франк Покупка</option>
-            <option value="sale-frank">Франк Продажа</option>
+            <option value="buy-frank">Крона Покупка</option>
+            <option value="sale-frank">Крона Продажа</option>
             <option value="buy-zloty">Злотый Покупка</option>
             <option value="sale-zloty">Злотый Продажа</option>
         </select>
@@ -259,17 +259,17 @@
         </div>
         <div id="frank" class="buy-sale hidden-table">
             <div class="table buy">
-                <div class="row table-header">Покупка Fr</div>
+                <div class="row table-header">Покупка czk</div>
                 <div class="row">
-                    <div class="col">Кол-во Fr</div>
-                    <div class="col">Курс Fr</div>
+                    <div class="col">Кол-во czk</div>
+                    <div class="col">Курс czk</div>
                     <div class="col">Сумма в грн</div>
                 </div>
                 <div id="buy-frank">
                 </div>
                 <div class="row add-row">
-                    <input data-input="sum" placeholder="Кол-во Fr" class="col" type="text">
-                    <input data-input="course" placeholder="Курс Fr" class="col" type="text">
+                    <input data-input="sum" placeholder="Кол-во czk" class="col" type="text">
+                    <input data-input="course" placeholder="Курс czk" class="col" type="text">
                     <button onclick="addRow(true, 'frank')" class="col">
                         Добавить
                     </button>
@@ -285,17 +285,17 @@
             </div>
             <div class="divider"></div>
             <div class="table sale">
-                <div class="row table-header">Продажа Fr</div>
+                <div class="row table-header">Продажа czk</div>
                 <div class="row">
-                    <div class="col">Кол-во Fr</div>
-                    <div class="col">Курс Fr</div>
+                    <div class="col">Кол-во czk</div>
+                    <div class="col">Курс czk</div>
                     <div class="col">Сумма в грн</div>
                 </div>
                 <div id="sale-frank">
                 </div>
                 <div class="row add-row">
-                    <input data-input="sum" placeholder="Кол-во Fr" class="col" type="number" step="0.0001">
-                    <input data-input="course" placeholder="Курс Fr" class="col" type="number" step="0.0001">
+                    <input data-input="sum" placeholder="Кол-во czk" class="col" type="number" step="0.0001">
+                    <input data-input="course" placeholder="Курс czk" class="col" type="number" step="0.0001">
                     <button onclick="addRow(false, 'frank')" class="col">
                         Добавить
                     </button>
